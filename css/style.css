@@ -4,6 +4,11 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ th, td {
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8242,11 +8247,11 @@ h1, h2, h3, h4, h5,
       transform: translateY(-50%);
       margin-top: -10px;
       color: #1eaaf1 !important;
-      -moz-transition: all 1.5s ease;
-      -o-transition: all 1.5s ease;
-      -webkit-transition: all 1.5s ease;
-      -ms-transition: all 1.5s ease;
-      transition: all 1.5s ease;
+      -moz-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      transition: all 0.3s ease;
       opacity: 0; }
       .owl-carousel .owl-nav .owl-prev span:before,
       .owl-carousel .owl-nav .owl-next span:before {
